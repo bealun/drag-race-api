@@ -7,7 +7,6 @@ export const HomePage = () => {
     <div>
       <Header />
       <HomeContent>
-        {/* <h1>Hello</h1> */}
       </HomeContent>
     </div>
   )

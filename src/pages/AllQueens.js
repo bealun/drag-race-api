@@ -59,4 +59,5 @@ const QueenTitle = styled.h1`
   border: 2px solid black;
   border-radius: 2px;
   padding: 10px 15px;
+  margin: 15px;
 `

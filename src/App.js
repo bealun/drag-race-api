@@ -14,11 +14,11 @@ export const App = () => {
           <HomePage />
         </Route>
 
-        <Route path="/winners">
+        <Route path="/winners" exact>
           <WinnerList />
         </Route>
 
-        <Route path="/queens">
+        <Route path="/queens" exact>
           <AllQueens />
         </Route>
 
@@ -26,7 +26,7 @@ export const App = () => {
           <SingleQueen />
         </Route>
 
-        <Route path="/lipsyncs">
+        <Route path="/lipsyncs" exact>
           <LipsyncBattle />
         </Route>
 
