@@ -17,7 +17,6 @@ export const WinnerList = () => {
     <div>
     <Header />
     <WinnerContainer>
-      {/* <h1>Hey there Winners!</h1> */}
       {winners.map(winner => (
         <WinningQueen key={winner.id}>
           {/* <QueenImg src={winner.image_url} alt={winner.name} /> */}
