@@ -3,6 +3,7 @@ import { BrowserRouter, Switch, Route } from 'react-router-dom'
 import { HomePage } from './pages/HomePage'
 import { WinnerList } from './pages/WinnerList'
 import { SingleQueen } from './pages/SingleQueen'
+import { LipsyncBattle } from './pages/LipsyncBattle'
 
 export const App = () => {
   return (
@@ -18,6 +19,10 @@ export const App = () => {
 
         <Route path="/queens">
           <SingleQueen />
+        </Route>
+
+        <Route path="/lipsyncs">
+          <LipsyncBattle />
         </Route>
 
       </Switch>
